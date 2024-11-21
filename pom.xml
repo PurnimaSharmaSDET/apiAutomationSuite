@@ -26,11 +26,6 @@
           <version>v1.0.1</version>
       </dependency>
 
-      <dependency>
-      <groupId>com.aventstack</groupId>
-      <artifactId>extentreports-testng-adapter</artifactId>
-      <version>1.2.2</version>
-    </dependency>
 
     <dependency>
       <groupId>org.projectlombok</groupId>
@@ -38,7 +33,11 @@
       <version>1.18.34</version>
       <scope>provided</scope>
     </dependency>
-
+      <dependency>
+          <groupId>com.relevantcodes</groupId>
+          <artifactId>extentreports</artifactId>
+          <version>2.41.2</version>
+      </dependency>
       <dependency>
           <groupId>org.projectlombok</groupId>
           <artifactId>lombok</artifactId>
@@ -52,12 +51,6 @@
           <type>pom</type>
       </dependency>
 
-
-      <dependency>
-      <groupId>com.aventstack</groupId>
-      <artifactId>extentreports</artifactId>
-      <version>5.1.2</version>
-    </dependency>
 
 
   </dependencies>
